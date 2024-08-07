@@ -1,0 +1,482 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 503447554,
+        "name": "Desktop Audio",
+        "uuid": "b20ae12d-b4cc-4120-802f-828677b7bbb0",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 0.59269553422927856,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": true,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "AuxAudioDevice1": {
+        "prev_ver": 503447554,
+        "name": "Mic/Aux",
+        "uuid": "5d283886-1bcd-47e1-b0f9-36a0dea8e92f",
+        "id": "wasapi_input_capture",
+        "versioned_id": "wasapi_input_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": true,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "current_scene": "main view",
+    "current_program_scene": "main view",
+    "scene_order": [
+        {
+            "name": "main view"
+        },
+        {
+            "name": "Scene 2"
+        }
+    ],
+    "name": "SWM Scene",
+    "groups": [],
+    "quick_transitions": [
+        {
+            "name": "Cut",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 3,
+            "fade_to_black": true
+        }
+    ],
+    "transitions": [],
+    "saved_projectors": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi"
+        }
+    },
+    "sources": [
+        {
+            "prev_ver": 503447554,
+            "name": "main view",
+            "uuid": "6ca9b264-bd40-4fc0-95b9-5f58b22726bc",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 4,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "webcam",
+                        "source_uuid": "c91f99da-0125-46c8-bcd3-3bbef39748af",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "pot player",
+                        "source_uuid": "f599645a-7528-4097-b0ee-61314870dbab",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1017.0
+                        },
+                        "scale": {
+                            "x": 1.75,
+                            "y": 1.75
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "pot player audio",
+                        "source_uuid": "a3ac2ad5-e80a-4971-b9b9-678de0ddd8ec",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "pot player",
+            "uuid": "f599645a-7528-4097-b0ee-61314870dbab",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "window": "01 Tibeauthetraveler x So.Lo - Goodnight.mp3 - PotPlayer:PotPlayer64:PotPlayerMini64.exe"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447554,
+                    "name": "Crop/Pad",
+                    "uuid": "f945efa0-4a2e-46d1-8e70-93dfc29554cd",
+                    "id": "crop_filter",
+                    "versioned_id": "crop_filter",
+                    "settings": {
+                        "left": 115,
+                        "right": 129,
+                        "top": 47,
+                        "bottom": 95,
+                        "relative": true
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447554,
+                    "name": "Color Key",
+                    "uuid": "93367df8-d320-4b03-9140-29976d319486",
+                    "id": "color_key_filter",
+                    "versioned_id": "color_key_filter_v2",
+                    "settings": {
+                        "brightness": 0.14449999999999999,
+                        "key_color": 4281545523,
+                        "key_color_type": "custom",
+                        "similarity": 492,
+                        "smoothness": 598
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "pot player audio",
+            "uuid": "a3ac2ad5-e80a-4971-b9b9-678de0ddd8ec",
+            "id": "wasapi_process_output_capture",
+            "versioned_id": "wasapi_process_output_capture",
+            "settings": {
+                "window": "28 dryhope - Steps (Kupla Master).mp3 - PotPlayer:PotPlayer64:PotPlayerMini64.exe"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.39542338252067566,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Scene 2",
+            "uuid": "8698abfa-e97b-404d-b994-e6c1972c37d9",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "webcam",
+            "uuid": "c91f99da-0125-46c8-bcd3-3bbef39748af",
+            "id": "dshow_input",
+            "versioned_id": "dshow_input",
+            "settings": {
+                "video_device_id": "Camera (NVIDIA Broadcast):",
+                "last_video_device_id": "Camera (NVIDIA Broadcast):",
+                "active": true,
+                "hw_decode": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}
